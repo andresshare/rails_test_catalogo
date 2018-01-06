@@ -1,0 +1,50 @@
+# Rails and Github
+
+###Blog
+>     rails new proyect -T --database=postgresql
+>     rails db:create
+>     rails db:migrate
+>     rails scaffold Blog title:string body:text
+>     rails db:migrate
+>     localhost:3000/blogs
+
+###Tips
+>     rails -h
+>     rails db:create |and*2| rails db:migrate
+>     git remote -v
+>     rake routes | grep porfolio
+
+###Api
+>       rails new api --api -T
+### Secrets.yml
+>     git checkout config/secrets.yml
+>     git rm . -r --cached
+
+###Controller -brach
+>     git checkout -b controller-generator
+
+###Data view to db html.erb
+>     @post.inspect
+>     @blog.inspect
+
+### MODEL
+>     rails g model Skill title:string percent_utilized:integer
+
+### Rails Console
+>       rails c
+> Skill.create!(title:"rails",percent_utilized:17)
+> Pages/home
+
+### Merge git
+>       git merge model-generator
+>       git push
+>       git checkout -b Resource_generator
+
+### RESOURCES IN RAILS
+>       rails g resource Portfoio title:string subtitle:string body: text main_image:text thumb_image:text
+>       rails db:migrate
+ 
+
+
+
+ 
