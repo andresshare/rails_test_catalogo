@@ -4,7 +4,7 @@
 >     rails new proyect -T --database=postgresql
 >     rails db:create
 >     rails db:migrate
->     rails scaffold Blog title:string body:text
+>     rails g scaffold Blog title:string body:text
 >     rails db:migrate
 >     localhost:3000/blogs
 
